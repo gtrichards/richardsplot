@@ -30,3 +30,7 @@ ax.set_color_cycle(richardsplot.csorange)
 ```
 
 Where `ax` is the matplotlib axis instance of interest.
+
+
+For documentation on Palettable see:
+https://jiffyclub.github.io/palettable/#finding-palettes
