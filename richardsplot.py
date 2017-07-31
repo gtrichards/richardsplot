@@ -31,6 +31,10 @@ pgf_with_latex = {                      # setup matplotlib to use latex for outp
     "legend.fontsize": 12,              # Make the legend/label fonts a little smaller
     "xtick.labelsize": 16,              # Font size of numbers 
     "ytick.labelsize": 16,
+    "xtick.direction": "in",
+    "ytick.direction": "in",
+    "xtick.minor.visible": True,
+    "ytick.minor.visible": True,
     'xtick.major.width':1, 
     'xtick.minor.width':1, 
     'ytick.major.width':1, 
