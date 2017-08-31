@@ -25,8 +25,8 @@ pgf_with_latex = {                      # setup matplotlib to use latex for outp
     "font.monospace": [],
     "axes.labelsize": 16,               # LaTeX default is 10pt font, font size of axis text label
     "axes.labelpad" : 6,                # Distance between label and axis
-    "axes.formatter.limits":[-5, 5],    # use sci notation if log10 of axis range is smaller than first or larger than second 
-    "axes.formatter.useoffset":False,
+    #"axes.formatter.limits":[-5, 5],    # use sci notation if log10 of axis range is smaller than first or larger than second, should change the axis label instead.  E.g., "Flux Density (10^-17 ergs/s/cm^2)" 
+    "axes.formatter.useoffset":False,   # Turn off sci notation
     "font.size": 16,
     "legend.fontsize": 12,              # Make the legend/label fonts a little smaller
     "xtick.labelsize": 16,              # Font size of numbers 
