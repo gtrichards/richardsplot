@@ -36,10 +36,17 @@ ax.set_color_cycle(rplot.csdark)
 
 Where `ax` is the matplotlib axis instance of interest.
 
-
 For documentation on Palettable see:
 https://jiffyclub.github.io/palettable/#finding-palettes
 
+###Good Plotting Guidelines###
+
+Please also see the plotting guidelines that Nadia Zakamska has put together for her group at JHU:
+http://zakamska.johnshopkins.edu/COMPUTING/graph_guide.html
+
+I'll emphasize the need for text in plots to be as big or bigger than the text in the paper (which this package should help solve), the need to make good color choices, and separation of analysis and plot making (so that remaking a plot doesn't mean re-running your analysis code).
+
+###Test Plots###
 
 If you want to suggest changes to the default parameters, first edit your own version and remake the test plots (currently just testplot1.py):
 ```
@@ -48,9 +55,3 @@ If you want to suggest changes to the default parameters, first edit your own ve
 then compare your new figure to testplot1.pdf and let me know why you think that your new version is better.
 
 Please contribute additional test plots.
-
-
-Please also see the plotting guidelines that Nadia Zakamska has put together for her group at JHU:
-http://zakamska.johnshopkins.edu/COMPUTING/graph_guide.html
-
-I'll emphasize the need for text in plots to be as big or bigger than the text in the paper (which this package should help solve), the need to make good color choices, and separation of analysis and plot making (so that remaking a plot doesn't mean re-running your analysis code).
