@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
 name = 'richardsplot', 
-version = '1.0.1',
+version = '1.1',
 description = 'Matplotlib plotting standards for Gordon Richards\' group',
 author = 'Gordon T. Richards',
 author_email = 'gtr@physics.drexel.edu',
